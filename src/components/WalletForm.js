@@ -11,7 +11,7 @@ class WalletForm extends React.Component {
     currency: 'USD',
     method: 'Dinheiro',
     tag: 'Alimentação',
-    exchangeRates: {},
+    // exchangeRates: {},
   };
 
   componentDidMount() {
