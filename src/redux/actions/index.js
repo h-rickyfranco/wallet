@@ -18,3 +18,20 @@ export function fetchCurrencies() {
       });
   };
 }
+
+export const saveExpense = (expense) => ({
+  type: 'SET_EXPENSE',
+  payload: expense,
+});
+
+export function fetchExchange(expense) {
+  return (dispatch) => {
+    fetch('https://economia.awesomeapi.com.br/json/all')
+      .then((response) => response.json())
+      .then((data) => {
+        delete data.USDT;
+        expense.exchangeRates = data;
+        dispatch(saveExpense(expense));
+      });
+  };
+}

@@ -61,9 +61,9 @@ class Wallet extends React.Component {
             {' '}
             <span data-testid="email-field">{email}</span>
           </p>
-          <p data-testid="total-field">
+          {/* <p data-testid="total-field">
             0
-          </p>
+          </p> */}
           <p data-testid="header-currency-field">
             BRL
           </p>
