@@ -3,16 +3,18 @@ table {
 }
 
 .table {
-  border:1px solid black;
-  border-collapse:colapso;
-  padding:5px;
+  border: 1px solid black;
+  border-collapse: colapso;
+  padding: 5px;
 }
+
 .table th {
-  border:1px solid black;
-  padding:5px;
-  background:#F0F0F0;
+  border: 1px solid black;
+  padding: 5px;
+  background: #f0f0f0;
 }
+
 .table td {
-  border:1px solid black;
-  padding:5px;
+  border: 1px solid black;
+  padding: 5px;
 }
