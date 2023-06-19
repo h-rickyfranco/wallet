@@ -13,12 +13,11 @@ class Header extends Component {
     const sum = data.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     const sumFixed = parseFloat(sum).toFixed(2);
     return (
-      <div className="border-b-2 border-gray-300 w-96">
+      <div className="">
         <p data-testid="total-field" className="text-xl">
           Total de despesas:
           {' '}
           {sumFixed}
-          {' '}
           <span data-testid="header-currency-field">
             BRL
           </span>

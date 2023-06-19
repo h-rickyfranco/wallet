@@ -54,6 +54,7 @@ class Table extends Component {
                     <td>Real</td>
                     <td>
                       <button
+                        className="bg-red-500 rounded-lg p-2 text-white"
                         type="button"
                         name="excluir"
                         data-testid="delete-btn"

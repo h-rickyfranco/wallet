@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
 h1 {
   display: flex;
   align-items: center;
@@ -9,9 +16,12 @@ h1 {
   justify-content: center;
   align-items: center;
   align-self: center;
+  width: 1000px;
+  margin-left: 27rem;
+  margin-top: 200px;
 }
 
-.WalletMain {
+.overflow {
   position: absolute;
   background: rgba(29, 164, 121, 0.5);
   left: 0;
@@ -22,4 +32,29 @@ h1 {
 
 .textheader {
   font-size: 100px;
+}
+
+.xablau {
+  display: flex;
+  align-items: center;
+}
+
+.walletform {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn {
+  align-self: center;
+  width: 200px;
+}
+
+.walletForm {
+  display: flex;
+}
+
+.table {
+  color: black;
+  background: blue;
 }

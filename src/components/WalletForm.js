@@ -49,7 +49,7 @@ class WalletForm extends React.Component {
 
     return (
       <div>
-        <form>
+        <form className="walletForm">
           <label htmlFor="value-input">
             Valor:
             <input
@@ -123,7 +123,13 @@ class WalletForm extends React.Component {
               <option value="Saúde">Saúde</option>
             </select>
           </label>
-          <button onClick={ this.handleSubmit }>Adicionar despesa</button>
+          <button
+            className="bg-green-500 btn font-serif font-bold text-white p-2 rounded"
+            onClick={ this.handleSubmit }
+          >
+            Adicionar despesa
+
+          </button>
         </form>
       </div>
     );

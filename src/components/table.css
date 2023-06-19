@@ -9,12 +9,13 @@ table {
 }
 
 .table th {
-  background: #f0f0f0;
   border: 1px solid black;
   padding: 5px;
+  color: white;
 }
 
 .table td {
   border: 1px solid black;
   padding: 5px;
+  color: white;
 }
