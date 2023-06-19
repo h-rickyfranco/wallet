@@ -1,7 +1,7 @@
 h1 {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -13,9 +13,13 @@ h1 {
 
 .WalletMain {
   position: absolute;
-  top: 0;
+  background: rgba(29, 164, 121, 0.5);
   left: 0;
-  width: 100%;
+  top: 0;
   height: 100%;
-  background: rgba(29, 164, 121, 0.5) ;
+  width: 100%;
+}
+
+.textheader {
+  font-size: 100px;
 }
