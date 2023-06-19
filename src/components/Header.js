@@ -14,7 +14,14 @@ class Header extends Component {
     const sumFixed = parseFloat(sum).toFixed(2);
     return (
       <div>
-        <p data-testid="total-field">{sumFixed}</p>
+        <p data-testid="total-field">
+          Total de despesas:
+          {' '}
+          {sumFixed}
+          <p data-testid="header-currency-field">
+            BRL
+          </p>
+        </p>
       </div>
     );
   }
