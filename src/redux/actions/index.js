@@ -8,6 +8,11 @@ export const setCurrencies = (currencies) => ({
   payload: currencies,
 });
 
+export const removeExpense = (expenseId) => ({
+  type: 'REMOVE_EXPENSE',
+  payload: expenseId,
+});
+
 export function fetchCurrencies() {
   return (dispatch) => {
     fetch('https://economia.awesomeapi.com.br/json/all')
