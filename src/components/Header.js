@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 class Header extends Component {
   render() {
     const { expenses } = this.props;
-    const data = expenses.map((expense) => {
-      const firstNumber = Number(parseFloat(expense.value).toFixed(2));
-      const multiply = firstNumber * expense.exchangeRates[expense.currency].ask;
+    console.log(expenses);
+    const data = expenses.map((ADAMASTOR) => {
+      const firstNumber = Number(parseFloat(ADAMASTOR.value).toFixed(2));
+      const multiply = firstNumber * ADAMASTOR.exchangeRates[ADAMASTOR.currency].ask;
       return multiply;
     });
     const sum = data.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
